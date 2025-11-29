@@ -1,3 +1,7 @@
+"""Mi idea principal de proyecto es hacer juegos de adivinar cosas relacionadas al futbol. Por ejemplo Un 3 en raya con 6 equipos diciendo en cada casilla un jugador que haya jugado en ambos equipos.
+    O un woordle (o ahorcado como se dice aqui en españa para adivinar el nombre de un jugador). Mi proyecto estaria basado en la pagina de google: https://futbol-11.com/
+    Mi idea seria hacer unos cuantos juegos parecidos a los de esa pagina y añadir algunos creados por mi"""
+
 
 # En esta funcion lo que hago es pedir al usuario que introduzca los datos dividos por comas para luego con split crear un array y añadirlo al array de jugadores
 def añadirElementos():
