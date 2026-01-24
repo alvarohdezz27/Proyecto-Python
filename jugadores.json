@@ -1,0 +1,39 @@
+{
+    "jugadores": [
+        {
+            "nombre": "Lionel Andres",
+            "apellido": "Messi Cuccitini",
+            "edad": 38,
+            "pais": "Argentina",
+            "equipo": "Inter Miami"
+        },
+        {
+            "nombre": "Cristiano Ronaldo",
+            "apellido": "dos Santos Aveiro",
+            "edad": 40,
+            "pais": "Portugal",
+            "equipo": "Al-Nassr"
+        },
+        {
+            "nombre": "Kylian",
+            "apellido": "Mbappé Lottin",
+            "edad": 26,
+            "pais": "Francia",
+            "equipo": "Real Madrid"
+        },
+        {
+            "nombre": "Lamine",
+            "apellido": "Yamal Nasraoui",
+            "edad": 18,
+            "pais": "España",
+            "equipo": "FC Barcelona"
+        },
+        {
+            "nombre": "Nicholas",
+            "apellido": "Williams Arthuer",
+            "edad": 23,
+            "pais": "España",
+            "equipo": "Athletic Club de Bilbao"
+        }
+    ]
+}
