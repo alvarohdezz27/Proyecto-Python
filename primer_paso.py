@@ -37,7 +37,8 @@ def añadirElementos():
         """Comprueba que la edad es un int"""
         try:
             edad = int(edad_str)
-        except ValueError:        return "Error: La edad debe ser un número entero."
+        except ValueError:        
+            return "Error: La edad debe ser un número entero."
     
 
         nombre = datos_lista[0].strip()
