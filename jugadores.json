@@ -6,6 +6,7 @@
             "edad": 38,
             "pais": "Argentina",
             "equipo": "Inter Miami",
+            "posicion": "Delantero",
             "goles": 0
         },
         {
@@ -14,6 +15,7 @@
             "edad": 40,
             "pais": "Portugal",
             "equipo": "Al-Nassr",
+            "posicion": "Delantero",
             "goles": 0
         },
         {
@@ -22,6 +24,7 @@
             "edad": 26,
             "pais": "Francia",
             "equipo": "Real Madrid",
+            "posicion": "Delantero",
             "goles": 0
         },
         {
@@ -30,6 +33,7 @@
             "edad": 18,
             "pais": "España",
             "equipo": "FC Barcelona",
+            "posicion": "Delantero",
             "goles": 0
         },
         {
@@ -38,16 +42,26 @@
             "edad": 23,
             "pais": "España",
             "equipo": "Athletic Club de Bilbao",
-            "goles": 0
-        },
-        {
-            "nombre": "Alvaro",
-            "apellido": "Hernandez",
-            "edad": 19,
-            "pais": "España",
-            "equipo": "Real Murcia",
             "posicion": "Delantero",
             "goles": 0
+        }
+    ],
+    "entrenadores": [
+        {
+            "nombre": "Luis Enrique",
+            "apellido": "Martinez",
+            "edad": 55,
+            "pais": "España",
+            "equipo": "PSG",
+            "titulos": 19
+        },
+        {
+            "nombre": "Pep",
+            "apellido": "Guardiola",
+            "edad": 55,
+            "pais": "España",
+            "equipo": "Manchester City",
+            "titulos": 39
         }
     ]
 }
