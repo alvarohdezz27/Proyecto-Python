@@ -17,7 +17,7 @@ def obtenerLista():
         logging.error("Error al leer jugadores.json")
         raise
 
-
+"""En esta clase los metodos funcionan igual que en jugador, solo que con sus respectivos datos"""
 class Entrenador(Persona):
     def __init__(self, nombre, apellido, edad, pais,equipo,titulos):
         super().__init__(nombre, apellido, edad, pais)

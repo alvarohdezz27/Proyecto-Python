@@ -19,6 +19,7 @@ def obtenerLista():
 
 
 
+
 class Jugador(Persona):
     def __init__(self, nombre, apellido, edad, pais,equipo,posicion):
         super().__init__(nombre, apellido, edad, pais)
@@ -29,6 +30,8 @@ class Jugador(Persona):
     def mostrarjugador(self):
         return f"{self.mostrarPersona()}, juega en {self.equipo} como {self.posicion}. Goles: {self.goles}"
     
+    """En este metodo lo que hago es pedir al usuario que introduzca los datos dividos por comas para luego con split crear un objeto.
+    Luego con jugadores.json creo un array y añado el objeto jugador convertido a array para que se añada al json"""
     @classmethod
     def añadirJugador(cls):
         logging.info("Intentando añadir jugador")
@@ -81,7 +84,8 @@ class Jugador(Persona):
             return "Error inesperado"
 
 
-    @classmethod
+    """ En esta funcion busco los datos completos con el nombre del jugador, creando un objeto con los datos de la lista obtenida del json.
+    Luego en el menu con el metodo de mostrar Jugador se muestra el objeto creado en este metodo"""
     def buscarJugador(cls):
         logging.info("Buscando jugador")
         try:
@@ -108,6 +112,9 @@ class Jugador(Persona):
             logging.error("Error al buscar jugador")
             return None
         
+
+    """Para poder modificarlo he utilizado el metodo enumerate, para poder enumerar cada array y poder llevar la cuenta de cuantas veces se ha iterado y asi con el indicie i poder modificarlo
+       Hago  lo mismo que en buscarElemento(), creo un objeto Jugador y con el array del indice recorrido lo asgino al objeto convertido en array"""    
     @classmethod
     def modificarJugador(cls):
         logging.info("Intentando modificar jugador")
@@ -160,6 +167,8 @@ class Jugador(Persona):
             logging.error("Error inesperado al modificar jugador")
             return "Error inesperado"
         
+
+    # Y para este metodo he hecho la misma jugada que modificar, solo que esta vez en vez de modificar, elimino el array. En esta no creo ningun objeto
     @classmethod
     def eliminarJugador(cls):
         logging.info("Intentando eliminar jugador")
@@ -186,7 +195,8 @@ class Jugador(Persona):
             logging.error("Error al eliminar el jugador")
             return "Error inesperado"     
 
-
+    """En este metodo recorro los array de la lista json y voy creando objetos con todos los datos obtenidos
+    Luego con el metodo mostrarJugador() guardo todos los datos en una variable para poder mostrarlos por pantalla"""
     @classmethod
     def mostrarJugadores(cls):
         logging.info("Mostrando todos los jugadores")
@@ -210,4 +220,3 @@ class Jugador(Persona):
         except Exception:
             logging.error("Error al mostrar jugadores")
             return "Error al mostrar jugadores"
-
