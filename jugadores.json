@@ -7,7 +7,7 @@
             "pais": "Argentina",
             "equipo": "Inter Miami",
             "posicion": "Delantero",
-            "goles": 0
+            "goles": 14
         },
         {
             "nombre": "Cristiano Ronaldo",
@@ -16,7 +16,7 @@
             "pais": "Portugal",
             "equipo": "Al-Nassr",
             "posicion": "Delantero",
-            "goles": 0
+            "goles": 16
         },
         {
             "nombre": "Kylian",
@@ -25,7 +25,7 @@
             "pais": "Francia",
             "equipo": "Real Madrid",
             "posicion": "Delantero",
-            "goles": 0
+            "goles": 22
         },
         {
             "nombre": "Lamine",
@@ -34,7 +34,7 @@
             "pais": "España",
             "equipo": "FC Barcelona",
             "posicion": "Delantero",
-            "goles": 0
+            "goles": 10
         },
         {
             "nombre": "Nicholas",
@@ -43,7 +43,7 @@
             "pais": "España",
             "equipo": "Athletic Club de Bilbao",
             "posicion": "Delantero",
-            "goles": 0
+            "goles": 12
         }
     ],
     "entrenadores": [
@@ -62,6 +62,29 @@
             "pais": "España",
             "equipo": "Manchester City",
             "titulos": 39
+        }
+    ],
+    "arbitros": [
+        {
+            "nombre": "Juan",
+            "apellido": "Cuesta",
+            "edad": 40,
+            "pais": "España",
+            "partidosArbitrados": 100
+        },
+        {
+            "nombre": "MAnuel",
+            "apellido": "garcia",
+            "edad": 28,
+            "pais": "España",
+            "partidosArbitrados": 234
+        },
+        {
+            "nombre": "Alvaro",
+            "apellido": "Garcia",
+            "edad": 19,
+            "pais": "España",
+            "partidosArbitrados": 14
         }
     ]
 }
